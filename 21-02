@@ -1,0 +1,46 @@
+Installed Ubuntu in Local Desktop
+Installed VS Code in Ubuntu
+File management :
+ls - used to list the files (excluding hidden files)
+cat - used to view the data and add the data
+more - used to view the data
+tail - used to display last line of the file
+tail -f - used to display the data  which is getting added to the particular file, mostly used to view the logs
+locate - used to find the path of the specified file
+cd - used to change from one directory to another specified directory
+touch - used to create the file and also to adds the information into it.
+mkdir -used to create directory
+move - used to move or rename the file
+rm - used to remove the file
+rmdir - used to remove the directory
+
+vi - used to add the information/data to the file
+(It has insertion mode and command mode)
+	Esc - helps to switch from insertion mode to command mode
+	i - helps to switch from command mode to insertion mode
+	dd - used to delete the entire line where cursor placed
+	x - used to delete the character from where the cursor is placed
+	q! - used to quit from the vi without saving (!-forcefully)
+	wq! - used to save and quit (!-forcefully)
+Search for a word in vi and replace a word with new word in vi (:%s/oldword/newword/g)
+	s- substitue
+	%- used to replace the word in the entire file (in all lines)
+	g- global search
+cp - used to copy the file
+cp -r - used to copy the file recursively
+cp -rp - used to copy the file recursively by preserving the attributes
+sed - used to manage the data in a file (adding or deleting)
+find - used to search the file or directory when we are having 'n' number of files
+	size - acheived by the flag -size
+	date -acheived the flaf -mtime
+	keyword -acheived by the flag -name
+grep - used to search for a keyword in the data of a file
+grep -i - used to search for a keyword in insensitive mode
+du -used to display the disk space occupied by files or directories
+df -used to display the disk space availble on the file system
+diff - used to display the differences between two different files
+wc -l - used to display the count of lines in a specified file
+tar - used to archeive the multiple files into a single .tar file
+zip - used to compress the file size which is easy to transfer
+unzip - used to uncompress the file to attain its original file size
+ln - used to create the hard link of the specified file in a specified path
